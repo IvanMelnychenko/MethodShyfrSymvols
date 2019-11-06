@@ -1,0 +1,5 @@
+
+zsquid:S1450
+"WRemove the "inputTxt" field and declare it as a local variable in the relevant methods.(¡¬Åíûÿÿÿÿ8õØ ”ä-
+Hsquid:S1068"%Remove this unused "m" private field.(õÀ«üøÿÿÿÿ8¸Ø¥”ä-
+“squid:S1319N"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ø…Šáøÿÿÿÿ8Æ‘¸•ä-
