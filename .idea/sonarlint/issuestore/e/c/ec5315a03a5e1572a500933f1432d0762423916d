@@ -1,4 +1,3 @@
 
-^squid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8Ç””ä-
-\squid:S1854"9Remove this useless assignment to local variable "list3".(Ç±üÎøÿÿÿÿ8Íü´•ä-
 ^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¤¨ˆ”ä-
+^squid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8Ç””ä-

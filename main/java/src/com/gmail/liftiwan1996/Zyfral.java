@@ -3,12 +3,13 @@ package com.gmail.liftiwan1996;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Zyfral {
 
   private String inputTxt = " ";
-  private List<String> list1 = new ArrayList<>();
+  private List<String> listInput = new ArrayList<>();
   private HashMap<String, String> map = new HashMap<>();
   private String a = "a";
   private String b = "b";
@@ -71,20 +72,26 @@ public class Zyfral {
     char[] charToArray = inputTxt.toCharArray();
     for (char ch : charToArray) {
       String symvol = Character.toString(ch);
-      list1.add(symvol);
+      listInput.add(symvol);
     }
   }
 
   public ArrayList<String> getList(List<String> list) {
     ArrayList<String> list3 = new ArrayList<>();
     for (String text : list) {
-      list3.add(map.get(text));
+      int randomIndex = new Random().nextInt(list.size());
+      if (text.equals(" ")) {
+        text = map.get(text);
+      } else {
+        text = list.get(randomIndex);
+      }
+      list3.add(text);
     }
     return list3;
   }
 
   public List<String> getList1() {
-    return list1;
+    return listInput;
   }
 }
 
